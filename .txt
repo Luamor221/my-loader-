@@ -1,0 +1,9 @@
+local script_key = "Test123"  -- Replace with your actual key
+
+local keys = game:HttpGet("https://raw.githubusercontent.com/YourUsername/MyLoader/main/keys.txt")
+
+if string.find(keys, script_key) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/MyLoader/main/Main.lua"))()
+else
+    warn("Invalid key! Please get a valid key from the official source.")
+end
