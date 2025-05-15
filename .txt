@@ -1,4 +1,4 @@
-local script_key = "Test123"  -- Replace with your actual key
+local script_key = "T"  -- Replace with your actual key
 
 local keys = game:HttpGet("https://raw.githubusercontent.com/YourUsername/MyLoader/main/keys.txt")
 
